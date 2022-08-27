@@ -14,7 +14,6 @@
   "bugs": {
     "url": "https://github.com/mozilla/multi-account-containers/issues"
   },
-  "dependencies": {},
   "devDependencies": {
     "addons-linter": "^5.28.0",
     "ajv": "^6.6.3",
@@ -57,5 +56,6 @@
     "test:once": "mocha test/**/*.test.js",
     "test:watch": "npm run test:once -- --watch",
     "coverage": "nyc --reporter=html --reporter=text mocha test/**/*.test.js --timeout 60000"
-  }
+  },
+  "packageManager": "yarn@4.0.0-rc.15"
 }
