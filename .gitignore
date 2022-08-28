@@ -1,7 +1,5 @@
 .DS_Store
 package-lock.json
-yarn.lock
-.yarn
 node_modules
 README.html
 *.xpi
@@ -15,6 +13,19 @@ src/web-ext-artifacts/*
 # JetBrains IDE files
 .idea
 
+# Visual Studio Code
+.vscode/
+
 # IstanbulJS
 .nyc_output
 coverage
+
+# yarn
+.yarn-meta
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

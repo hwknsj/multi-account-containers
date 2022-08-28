@@ -11,10 +11,10 @@ git submodule init || die
 git submodule update --remote --depth 1 src/_locales || die
 
 print Y "Installing dependencies..."
-npm install --legacy-peer-deps || die
+yarn install || die
 
 print Y "Running tests..."
-npm test
+yarn test
 
 print Y "Creating the final package..."
 cd src || die
@@ -23,4 +23,4 @@ if [[ $# -gt 0 ]]; then
   EXTRA_PARAMS="--filename $1"
 fi
 
-$(npm bin)/web-ext build --overwrite-dest $EXTRA_PARAMS || die
+$(yarn bin web-ext) build --overwrite-dest $EXTRA_PARAMS || die

@@ -1,8 +1,10 @@
 # Multi-Account Containers
 
+> Note: This add-on is a clone of [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) ([source code](https://github.com/mozilla/multi-account-containers)) with one exception–I've the black container color to the popup interface. This has been documented in [Github issues](https://github.com/mozilla/multi-account-containers/issues/1822) and a [pull request](https://github.com/mozilla/multi-account-containers/pull/2192) by @aaronkollasch has been "open" since November 2021. Given that those who manage the extension seem to disagree that this is a valuable feature (in spite of the fact that Firefox's built-in 'Container Tabs' includes the 'black'/'grey' container color option).
+
 [![Test](https://github.com/mozilla/multi-account-containers/actions/workflows/test.yaml/badge.svg)](https://github.com/mozilla/multi-account-containers/actions/workflows/test.yaml)
 
-The Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email!
+The Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email!
 
 Learn more about Multi-Account Containers in
 [our end-user documentation][enduser].

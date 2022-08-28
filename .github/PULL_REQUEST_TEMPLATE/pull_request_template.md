@@ -2,7 +2,7 @@
 
 - [ ] I agree to license my code under the [MPL 2.0 license](https://www.mozilla.org/en-US/MPL/2.0/).
 - [ ] I rebased my work on top of the main branch.
-- [ ] I ran `npm test` and all tests passed.
+- [ ] I ran `yarn test` and all tests passed.
 - [ ] I added test coverages if relevant.
 
 # Description
