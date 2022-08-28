@@ -334,6 +334,11 @@ table {
 }
 /* stylelint-enable no-descending-specificity */
 
+/* Firefox Container Tabs implements an identity color called "toolbar" which
+ * resulted in containers created via about:preferences#containers using the grey/black
+ * color to be overwritten if edited via the Multi-account Containers popup ->
+ * Manage Containers menu and unavailable in the "New Container" form.
+ */
 [data-identity-color="toolbar"] {
   --identity-tab-color: #7c7c7d;
   --identity-icon-color: #7c7c7d;

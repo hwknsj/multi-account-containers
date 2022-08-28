@@ -1,5 +1,7 @@
 .DS_Store
 package-lock.json
+yarn.lock
+.yarn
 node_modules
 README.html
 *.xpi
