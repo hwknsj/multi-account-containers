@@ -2,6 +2,7 @@
 docs/
 test/
 .npm/
+.yarn/
 node_modules/
 bin/
 

@@ -5,6 +5,8 @@
 * Firefox 91.1.0+
 * Git 2.13+
 * Node 7+
+    * Node 16.10+ recommended to enable the [`corepack` feature](https://yarnpkg.com/getting-started/install)
+* Yarn 3+
 
 ## Getting Started
 
@@ -17,9 +19,9 @@
     ```
 3. Install the project dependencies
     ```
-    npm install --legacy-peer-deps
+    yarn install
     ```
-4. Run `npm run dev`.
+4. Run `yarn run dev`.
 
 ## Translations
 
