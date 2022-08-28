@@ -8,7 +8,7 @@
     "48": "img/multiaccountcontainer-16.svg",
     "96": "img/multiaccountcontainer-16.svg"
   },
-  "homepage_url": "https://github.com/mozilla/multi-account-containers#readme",
+  "homepage_url": "https://github.com/hwknsj/multi-account-containers#readme",
   "permissions": [
     "<all_urls>",
     "activeTab",
@@ -31,7 +31,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "@testpilot-containers",
+      "id": "@joel.biz-containers",
       "strict_min_version": "91.1.0"
     }
   },
@@ -151,9 +151,7 @@
     }
   ],
   "default_locale": "en",
-  "web_accessible_resources": [
-    "/img/multiaccountcontainer-16.svg"
-  ],
+  "web_accessible_resources": ["/img/container-site-d-24.png"],
   "options_ui": {
     "page": "options.html",
     "browser_style": true
