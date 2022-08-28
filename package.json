@@ -48,6 +48,7 @@
     "lint:css": "stylelint src/css/*.css",
     "lint:html": "htmllint *.html",
     "lint:js": "eslint .",
+    "build": "./bin/build-addon.sh",
     "package": "rm -rf src/web-ext-artifacts && npm run build && mv src/web-ext-artifacts/firefox_multi-account_containers-*.zip addon.xpi",
     "test": "npm run lint && npm run coverage",
     "test:once": "mocha test/**/*.test.js",
