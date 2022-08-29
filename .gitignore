@@ -8,7 +8,7 @@ README.html
 .env
 addon.env
 
-src/web-ext-artifacts/*
+web-ext-artifacts/*
 
 # JetBrains IDE files
 .idea
