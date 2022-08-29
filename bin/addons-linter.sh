@@ -32,4 +32,4 @@ rm -rf $TMPDIR/src/_locales/.github || die
 print G "done."
 
 print Y "Running the test..."
-$(yarn bin addons-linter) $TMPDIR/src || die
+yarn addons-linter $TMPDIR/src || die
