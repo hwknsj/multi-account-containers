@@ -9,8 +9,8 @@
 
 ## Publish to AMO
 
-1. Run `./bin/build-addon.sh`
-2. [Upload the zip file to AMO][amo-upload]
+1. Run `yarn run package`
+2. [Upload `addon.xpi` to AMO][amo-upload]
 
 ## Publish to GitHub
 
@@ -18,14 +18,14 @@ Finally, we also publish the release to GitHub.
 
 1. Download the signed `.xpi` from [the addon versions page][addon-page]
 2. [Create a new release on GitHub][gh-release]
-   * For *Tag version* and *Release title*, use the version number
-   * For *Release notes*, copy the output of:
+   - For _Tag version_ and _Release title_, use the version number
+   - For _Release notes_, copy the output of:
      ```
      git log --no-merges \
              --pretty=format:"%h %s" <previous-version>..<new-version>
      ```
-   * For the *Attach binaries*, select the signed `.xpi` file
+   - For the _Attach binaries_, select the signed `.xpi` file
 
 [addon-page]: https://addons.mozilla.org/developers/addon/multi-account-containers/versions
 [amo-upload]: https://addons.mozilla.org/developers/addon/multi-account-containers/versions/submit/
-[gh-release]: https://github.com/mozilla/multi-account-containers/releases/new
+[gh-release]: https://github.com/hwknsj/multi-account-containers/releases/new
