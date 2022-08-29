@@ -6,10 +6,6 @@
 
 . $(dirname $0)/commons.sh
 
-print Y "Update the submodules..."
-git submodule init || die
-git submodule update --remote --depth 1 src/_locales || die
-
 print Y "Installing dependencies..."
 yarn install || die
 
@@ -17,10 +13,9 @@ print Y "Running tests..."
 yarn test
 
 print Y "Creating the final package..."
-cd src || die
 
 if [[ $# -gt 0 ]]; then
   EXTRA_PARAMS="--filename $1"
 fi
 
-$(yarn bin web-ext) build --overwrite-dest $EXTRA_PARAMS || die
+yarn web-ext build --source-dir ./src --overwrite-dest $EXTRA_PARAMS || die
