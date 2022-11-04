@@ -4,7 +4,7 @@
 }
 
 main {
-  background: url(/img/onboarding-4.png) no-repeat;
+  background: url("/img/onboarding-4.png") no-repeat;
   background-position: 200px 0;
   background-size: 120px;
   margin-inline-start: -350px;
@@ -27,7 +27,7 @@ button .container-name,
 
   /* for a mid sized window we have enough for this but not our image */
   .title {
-    background-image: url('chrome://global/skin/icons/info.svg');
+    background-image: url("chrome://global/skin/icons/info.svg");
   }
 }
 

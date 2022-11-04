@@ -4,28 +4,35 @@
   "description": "Containers helps you keep all the parts of your online life contained in different tabs. Custom labels and color-coded tabs help keep different activities — like online shopping, travel planning, or checking work email — separate.",
   "version": "8.0.8",
   "author": "Andrea Marchesini, Luke Crouch, Lesley Norton, Kendall Werts, Maxx Crawford, Jonathan Kingston",
+  "contributors": [
+    {
+      "name": "joél torres",
+      "email": "joel@joel.fm",
+      "url": "https://joel.fm"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/hwknsj/multi-account-containers/issues"
   },
   "devDependencies": {
-    "addons-linter": "^3.23.0",
-    "ajv": "^6.12.6",
+    "addons-linter": "^5.20.0",
+    "ajv": "^8.11.0",
     "chai": "^4.3.6",
-    "chalk": "^5.0.1",
+    "chalk": "^5.1.2",
     "eslint": "^7.32.0",
     "eslint-plugin-no-unsanitized": "^4.0.1",
     "eslint-plugin-promise": "^5.2.0",
     "htmllint-cli": "0.0.7",
     "json": "^11.0.0",
-    "mocha": "^6.2.3",
+    "mocha": "^10.1.0",
     "nyc": "^15.1.0",
-    "sinon": "^7.5.0",
+    "sinon": "^14.0.1",
     "sinon-chai": "^3.7.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.1.0",
-    "web-ext": "^7.2.0",
-    "webextensions-jsdom": "^1.2.1",
+    "stylelint": "^14.14.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-order": "^5.0.0",
+    "web-ext": "^7.3.1",
+    "webextensions-jsdom": "^1.4.1",
     "yarn-run-all": "^3.1.1"
   },
   "homepage": "https://github.com/hwknsj/multi-account-containers#readme",
@@ -33,7 +40,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mozilla/multi-account-containers.git"
+    "url": "git+https://github.com/hwknsj/multi-account-containers.git"
   },
   "scripts": {
     "clean": "yarn exec \"rm -rf web-ext-artifacts\"",

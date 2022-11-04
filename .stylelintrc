@@ -8,10 +8,17 @@
   "ignoreFiles": ["src/css/*.min.css"],
 
   "rules": {
+    "alpha-value-notation": null,
+    "custom-property-pattern": null,
+    "selector-class-pattern": null,
+    "keyframes-name-pattern": null,
+    "color-function-notation": null,
+    "font-family-name-quotes": null,
     "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-redundant-longhand-properties": null,
     "property-no-unknown": [
       true, {
-        ignoreProperties:
+        "ignoreProperties":
           ["inset-block-end", "inset-block-start"]
     }],
     "property-disallowed-list": [
