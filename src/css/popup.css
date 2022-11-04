@@ -28,6 +28,7 @@
 
 [data-theme="light"],
 :root {
+  /* stylelint-disable custom-property-pattern */
   --fontInter: "Inter", sans-serif;
   --fontInterMedium: "Inter-Medium", sans-serif;
   --fontMetropolis: "Metropolis", sans-serif;
@@ -43,6 +44,7 @@
   --footerHeight: 48px;
   --panelSize: 560px;
   --rowHeight: 48px;
+  /* stylelint-enable */
 
   /* calculated from 12px */
   --font-size-heading: 1.33rem; /* 16px */
@@ -424,7 +426,7 @@ table {
 
 #current-tab [data-identity-icon="default-tab"] {
   background: center center no-repeat url("/img/blank-tab.svg");
-  fill: currentColor;
+  fill: currentcolor;
 }
 
 /* Buttons */
@@ -1456,7 +1458,7 @@ fieldset,
 
 /* ------ Input ----- */
 
-input[type=text] {
+input[type="text"] {
   block-size: 36px;
   border-radius: 4px;
   background-color: var(--input-bg-color);
@@ -1723,7 +1725,7 @@ manage things like container crud */
   background-size: 16px;
   block-size: 100%;
   fill: var(--identity-icon-color);
-  filter: url('/img/filters.svg#fill');
+  filter: url("/img/filters.svg#fill");
 }
 
 .usercontext-icon::before {
@@ -1737,7 +1739,7 @@ manage things like container crud */
 }
 
 .mac-icon {
-  background-image: url('/img/multiaccountcontainer-16.svg');
+  background-image: url("/img/multiaccountcontainer-16.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 16px;
@@ -1747,9 +1749,9 @@ manage things like container crud */
 .container-panel-row:hover .clickable .usercontext-icon,
 .container-panel-row:focus .clickable .usercontext-icon,
 .container-panel-row .clickable:focus .usercontext-icon {
-  background-image: url('/img/container-newtab.svg');
+  background-image: url("/img/container-newtab.svg");
   fill: #979797;
-  filter: url('/img/filters.svg#fill');
+  filter: url("/img/filters.svg#fill");
 }
 
 .container-panel-row .clickable:hover .usercontext-icon,
@@ -1881,7 +1883,7 @@ manage things like container crud */
   content: "";
   display: block;
   fill: var(--identity-icon-color);
-  filter: url('/img/filters.svg#fill');
+  filter: url("/img/filters.svg#fill");
   inline-size: 23px;
   position: relative;
 }
@@ -1906,6 +1908,8 @@ manage things like container crud */
   border-radius: 100%;
 }
 
+/* When focusing the element add a thin blue highlight to match input fields.
+   This gives a distinction to other selected radio items */
 .radio-choice > .radio-container > [type="radio"]:checked + label:hover {
   background-color: var(--usercontext-bg-hover-color);
   border-radius: 100%;
