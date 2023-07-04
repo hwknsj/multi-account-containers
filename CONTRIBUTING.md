@@ -14,7 +14,7 @@
 2. Fetch the locales:
 
     ```
-    cd multi-account-containers
+    cd tab-containers-containers
     git submodule update --init
     ```
 3. Install the project dependencies
