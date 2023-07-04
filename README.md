@@ -1,6 +1,6 @@
 # Tab Containers
 
-> Note: This add-on is a clone of [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) ([source code](https://github.com/mozilla/multi-account-containers)) with one exception–I've the black container color to the popup interface. This has been documented in [Github issues](https://github.com/mozilla/multi-account-containers/issues/1822) and a [pull request](https://github.com/mozilla/multi-account-containers/pull/2192) by @aaronkollasch has been "open" since November 2021. Given that those who manage the extension seem to disagree that this is a valuable feature (in spite of the fact that Firefox's built-in 'Container Tabs' includes the 'black'/'grey' container color option).
+> Note: This add-on is essentially a clone of [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) ([source code](https://github.com/mozilla/multi-account-containers)) with one exception–I've the black container color to the popup interface. This has been documented in [Github issues](https://github.com/mozilla/multi-account-containers/issues/1822) and a [pull request](https://github.com/mozilla/multi-account-containers/pull/2192) by @aaronkollasch has been "open" since November 2021. Given that those who manage the extension seem to disagree that this is a valuable feature (in spite of the fact that Firefox's built-in 'Container Tabs' includes the 'black'/'grey' container color option).
 
 ## Add-on description
 
