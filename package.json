@@ -1,5 +1,5 @@
 {
-  "name": "Tab Containers",
+  "name": "tab-containers",
   "title": "Tab Containers",
   "description": "Tab Container & Groups | Multi-account, Proxy, VPN, Cookies per Tab:\n Keep your online life separate! Work / life balance: contain your work, social, personal life in Tab Containers. Create custom-labeled color-coded groups of tabs to separate any aspect of your web browsing–work, shopping, travel, social, banking... anything you define. Don't let the corporate technocracy (e.g. Facebook, Meta, Google, Amazon, Twitter, your employer) characterize you by your search history, purchase history, travel plans, where you're connecting from, who your friends are on social media–to sell you ads, send you spam email, modify your search results, and influence your life. Only you are entitled to your online information, it will be taken unless you prevent it. Tab Containers can help/",
   "version": "8.0.9",
@@ -15,10 +15,10 @@
     "url": "https://github.com/hwknsj/multi-account-containers/issues"
   },
   "devDependencies": {
-    "addons-linter": "^5.28.0",
+    "addons-linter": "^5.32.0",
     "ajv": "^8.12.0",
     "chai": "^4.3.7",
-    "chalk": "^5.2.0",
+    "chalk": "^5.3.0",
     "eslint": "^7.32.0",
     "eslint-plugin-no-unsanitized": "^4.0.2",
     "eslint-plugin-promise": "^6.1.1",
@@ -26,12 +26,12 @@
     "json": "^11.0.0",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
-    "sinon": "^15.0.1",
+    "sinon": "^15.2.0",
     "sinon-chai": "^3.7.0",
-    "stylelint": "^15.1.0",
+    "stylelint": "^15.9.0",
     "stylelint-config-standard": "^30.0.1",
-    "stylelint-order": "^6.0.2",
-    "web-ext": "^7.5.0",
+    "stylelint-order": "^6.0.3",
+    "web-ext": "^7.6.2",
     "webextensions-jsdom": "^1.4.1",
     "yarn-run-all": "^3.1.1"
   },
@@ -58,5 +58,5 @@
     "test:watch": "yarn run test:once -- --watch",
     "coverage": "nyc --reporter=html --reporter=text mocha test/**/*.test.js --timeout 60000"
   },
-  "packageManager": "yarn@4.0.0-rc.15"
+  "packageManager": "yarn@4.0.0-rc.48"
 }
