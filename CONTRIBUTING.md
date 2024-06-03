@@ -4,9 +4,9 @@
 
 * Firefox 91.1.0+
 * Git 2.13+
-* Node 7+
-    * Node 16.10+ recommended to enable the [`corepack` feature](https://yarnpkg.com/getting-started/install)
-* Yarn 3+
+* Node 12+
+    * Node 18.10+ recommended to enable the [`corepack` feature](https://yarnpkg.com/getting-started/install)
+* Yarn 4+
 
 ## Getting Started
 
@@ -14,7 +14,7 @@
 2. Fetch the locales:
 
     ```
-    cd tab-containers-containers
+    cd tab-containers
     git submodule update --init
     ```
 3. Install the project dependencies

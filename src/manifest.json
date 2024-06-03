@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Tab Containers",
-  "version": "8.1.1",
+  "version": "8.1.3",
   "incognito": "not_allowed",
   "description": "__MSG_extensionDescription__",
   "icons": {
@@ -119,8 +119,8 @@
     "default_area": "navbar",
     "theme_icons": [
       {
-        "light": "img/multiaccountcontainer-16.svg",
-        "dark": "img/multiaccountcontainer-16.svg",
+        "light": "img/container-openin-16.svg",
+        "dark": "img/container-openin-16-dark.svg",
         "size": 32
       }
     ]
