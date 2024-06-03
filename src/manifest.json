@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Firefox Multi-Account Containers",
-  "version": "8.1.3",
+  "name": "Tab Containers",
+  "version": "8.1.1",
   "incognito": "not_allowed",
   "description": "__MSG_extensionDescription__",
   "icons": {
@@ -31,7 +31,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "@joel.biz-containers",
+      "id": "@joel.fm-tab-containers",
       "strict_min_version": "91.1.0"
     }
   },
