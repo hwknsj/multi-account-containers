@@ -1,7 +1,5 @@
 .DS_Store
 package-lock.json
-yarn.lock
-.yarn
 node_modules
 README.html
 *.xpi
@@ -12,9 +10,10 @@ addon.env
 
 src/web-ext-artifacts/*
 web-ext-artifacts
+src/.web-extension-id
 
 # JetBrains IDE files
-.idea
+.idea/
 
 # Visual Studio Code
 .vscode/
@@ -24,6 +23,7 @@ web-ext-artifacts
 coverage
 
 # yarn
+yarn-error.log
 .yarn-meta
 .pnp.*
 .yarn/*
