@@ -762,7 +762,7 @@ input.proxies {
   border-radius: 4px;
   display: flex;
   block-size: 32px;
-  margin-block-start: 8px;
+  margin-block: 8px;
   background-color: var(--panel-bg-color);
   background-image: var(--iconArrowRight);
   background-position: calc(100% - 24px) center;
@@ -771,7 +771,6 @@ input.proxies {
   outline: none;
   padding-inline-start: 20px;
   margin-inline: 8px;
-  margin-block: 8px;
   visibility: visible;
   position: absolute;
   inset-block-end: 0;
@@ -1889,7 +1888,7 @@ manage things like container crud */
 }
 
 .radio-choice > .radio-container > [type="radio"] {
-  -moz-appearance: none;
+  appearance: none;
   display: inline;
   opacity: 0;
   position: absolute;
