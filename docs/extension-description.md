@@ -24,7 +24,7 @@ Other features of Tab Containers include:
   <li>Avoid sophisticated "fingerprinting" (i.e. identification) techniques which are often used across different websites to target individuals by isolating the sites you browse and prevent leaking data, and even browse from different locations (IP addresses) with Mozilla VPN.</li>
   <li>Protect your browsing activity & access region-restricted content while also accessing sites that require connection from your home country. For example, listen to USA-restricted artists on Spotify, watch YouTube videos only available in UK/EU, view UK streaming services such as BBC / Channel 4, ESPN+, and Disney+, in different browser tabs, and still be able to check your bank account, use your local government's web services, or work from home.</li>
 </ul>
-After installing the Firefox Multi-Account Containers extension, click the Containers icon to edit your
+After installing the Tab Containers extension, click the Containers icon to edit your
 Containers. Change their colors, names, and icons. Long-click the new tab button to open a new Container
 tab.
 
