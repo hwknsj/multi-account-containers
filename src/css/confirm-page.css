@@ -20,7 +20,7 @@ button .container-name,
   font-weight: bold;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (width <= 900px) {
   main {
     background: none;
   }

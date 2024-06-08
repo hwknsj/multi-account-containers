@@ -1,6 +1,7 @@
+/** @type import('eslint').ESLint.ConfigData */
 module.exports = {
   "parserOptions": {
-    "ecmaVersion": 2018
+    "ecmaVersion": "latest"
   },
   "env": {
     "browser": true,

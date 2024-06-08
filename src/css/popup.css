@@ -1358,7 +1358,6 @@ input.proxies {
 }
 
 .server-radio-btn:checked + .server-radio-control {
-  border-color: var(--input-border-focus-color);
   border: 2px solid var(--input-border-focus-color);
 }
 

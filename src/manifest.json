@@ -8,7 +8,7 @@
     "48": "img/multiaccountcontainer-16.svg",
     "96": "img/multiaccountcontainer-16.svg"
   },
-  "homepage_url": "https://github.com/hwknsj/multi-account-containers#readme",
+  "homepage_url": "https://github.com/hwknsj/tab-containers",
   "permissions": [
     "<all_urls>",
     "activeTab",
@@ -31,7 +31,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "@joel.fm-tab-containers",
+      "id": "@joel.biz-containers",
       "strict_min_version": "91.1.0"
     }
   },
@@ -114,7 +114,7 @@
   "browser_action": {
     "browser_style": true,
     "default_icon": "img/multiaccountcontainer-16.svg",
-    "default_title": "Firefox Multi-Account Containers",
+    "default_title": "Tab Containers",
     "default_popup": "popup.html",
     "default_area": "navbar",
     "theme_icons": [
@@ -131,7 +131,9 @@
     "default_title": "__MSG_alwaysOpenSiteInContainer__",
     "default_popup": "pageActionPopup.html",
     "pinned": false,
-    "show_matches": ["*://*/*"]
+    "show_matches": [
+      "*://*/*"
+    ]
   },
   "background": {
     "page": "js/background/index.html"
@@ -151,7 +153,9 @@
     }
   ],
   "default_locale": "en",
-  "web_accessible_resources": ["/img/container-site-d-24.png"],
+  "web_accessible_resources": [
+    "/img/container-site-d-24.png"
+  ],
   "options_ui": {
     "page": "options.html",
     "browser_style": true

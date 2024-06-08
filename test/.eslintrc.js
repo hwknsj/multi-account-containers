@@ -1,10 +1,11 @@
+/** @type import('eslint').ESLint.ConfigData */
 module.exports = {
-  env: {
+  "env": {
     "node": true,
     "mocha": true
   },
   "parserOptions": {
-    "ecmaVersion": 2018
+    "ecmaVersion": "latest",
   },
   "rules": {
     "no-restricted-globals": ["error", "browser"]
