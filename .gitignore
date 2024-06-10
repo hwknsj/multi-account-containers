@@ -11,6 +11,8 @@ addon.env
 src/web-ext-artifacts/*
 web-ext-artifacts
 src/.web-extension-id
+web-ext-id
+src/.amo-upload-uuid
 
 # JetBrains IDE files
 .idea/
