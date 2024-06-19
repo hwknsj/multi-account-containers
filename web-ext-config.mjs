@@ -14,8 +14,8 @@ export default {
     overwriteDest: true
   },
   sign: {
-    apiKey: process.env.AMO_JWT_ISSUER,
-    apiSecret: process.env.AMO_JWT_SECRET
+    apiKey: process.env.AMO_JWT_ISSUER ?? '',
+    apiSecret: process.env.AMO_JWT_SECRET ?? ''
   },
   ignoreFiles: ['src/_locales']
 }
